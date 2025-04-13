@@ -6,9 +6,9 @@ namespace variable
         {
             //variable declaration
             string name;
-
             //variable initialization
             name = "Ali";
+            //Printing name
             Console.WriteLine(name);
         }
     }
