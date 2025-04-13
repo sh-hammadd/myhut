@@ -11,6 +11,7 @@ namespace variable
             
            Console.WriteLine(age);
            //Printing age
+           //Printing name
            Console.WriteLine(name);
         }
     }
