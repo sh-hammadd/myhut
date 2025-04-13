@@ -1,0 +1,15 @@
+namespace variable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //variable declaration
+            string name;
+
+            //variable initialization
+            name = "Ali";
+            Console.WriteLine(name);
+        }
+    }
+}
