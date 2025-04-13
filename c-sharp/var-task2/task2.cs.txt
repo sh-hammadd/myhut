@@ -1,0 +1,17 @@
+namespace variable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //variable declaration & initialization
+            int age = 19;
+            string name = "Ahmed";
+            //Printing age
+            
+           Console.WriteLine(age);
+           //Printing age
+           Console.WriteLine(name);
+        }
+    }
+}
