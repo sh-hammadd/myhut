@@ -8,9 +8,7 @@ namespace variable
             int age = 19;
             string name = "Ahmed";
             //Printing age
-            
            Console.WriteLine(age);
-           //Printing age
            //Printing name
            Console.WriteLine(name);
         }
