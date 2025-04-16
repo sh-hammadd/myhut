@@ -1,0 +1,42 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Integer min and max
+        int minInt = int.MinValue; // Minimum value of int
+        int maxInt = int.MaxValue; // Maximum value of int
+        Console.WriteLine("Int Min: " + minInt);
+        Console.WriteLine("Int Max: " + maxInt);
+
+        // Long min and max
+        long minLong = long.MinValue; // Minimum value of long
+        long maxLong = long.MaxValue; // Maximum value of long
+        Console.WriteLine("Long Min: " + minLong);
+        Console.WriteLine("Long Max: " + maxLong);
+
+        // Double min and max
+        double minDouble = double.MinValue; // Minimum value of double
+        double maxDouble = double.MaxValue; // Maximum value of double
+        Console.WriteLine("Double Min: " + minDouble);
+        Console.WriteLine("Double Max: " + maxDouble);
+
+        // String min and max (based on lexicographical order)
+        string[] words = { "apple", "zebra", "banana", "cherry", "alpha" };
+        string minString = words[0]; // Initialize minString
+        string maxString = words[0]; // Initialize maxString
+
+        foreach (string word in words)
+        {
+            if (string.Compare(word, minString) < 0) // If word is smaller
+                minString = word;
+
+            if (string.Compare(word, maxString) > 0) // If word is larger
+                maxString = word;
+        }
+
+        Console.WriteLine("String Min: " + minString);
+        Console.WriteLine("String Max: " + maxString);
+    }
+}
