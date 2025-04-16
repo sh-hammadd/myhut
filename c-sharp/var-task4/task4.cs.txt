@@ -1,0 +1,18 @@
+using System;
+{
+// Global Variable(Access from any method in the class)
+ static int globalCount=10;
+ static void Main(string[] args)
+ {
+ Console.WriteLine("Global Variable"+globalCount);
+} 
+  static void ShowLocalVariable()
+{
+ //local Variable( only Accessible inside the method)
+ int localCount=5;
+Console.WriteLine("local Variable="+localCount);
+
+// use global variable
+  Console.WriteLine("Again Global variable"+globalCount");
+ }
+}
